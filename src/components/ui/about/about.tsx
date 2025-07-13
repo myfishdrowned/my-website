@@ -43,11 +43,11 @@ export default function About() {
             <p
               data-tooltip-id="email"
               onClick={() => {
-                navigator.clipboard.writeText("guskirb@gmail.com");
+                navigator.clipboard.writeText("saifur.rahman@example.com");
               }}
               className="text-2xl lg:text-3xl cursor-pointer"
             >
-              <b>guskirb@gmail.com</b>
+              <b>saifur.rahman@example.com</b>
             </p>
           </Highlight>
           <ul className="flex gap-8 mt-3">
@@ -55,7 +55,7 @@ export default function About() {
               GitHub
             </Tooltip>
             <MotionDiv delay={0.7}>
-              <a href="https://github.com/guskirb" data-tooltip-id="githublogo">
+              <a href="https://github.com/saifur-rahman" data-tooltip-id="githublogo">
                 <li className="gitHubLogo hover:scale-[1.1] duration-700" />
               </a>
             </MotionDiv>
@@ -64,7 +64,7 @@ export default function About() {
             </Tooltip>
             <MotionDiv delay={0.8}>
               <a
-                href="https://linkedin.com/in/guskirb"
+                href="https://linkedin.com/in/saifur-rahman"
                 data-tooltip-id="linkedin"
               >
                 <li className="linkedInLogo hover:scale-[1.1] duration-700" />
@@ -75,7 +75,7 @@ export default function About() {
             </Tooltip>
             <MotionDiv delay={0.9}>
               <a
-                href="https://leetcode.com/u/guskirb/"
+                href="https://leetcode.com/u/saifur-rahman/"
                 data-tooltip-id="leetcode"
               >
                 <li className="leetCodeLogo hover:scale-[1.1] duration-700" />

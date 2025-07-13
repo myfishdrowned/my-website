@@ -10,7 +10,7 @@ export default function Head({ desc = "" }: HeadProps) {
   return (
     <Helmet
       helmetData={helmetData}
-      title="Gus Kirby | Full-Stack Web Developer"
+      title="Saif-Ur Rahman | IAM Engineer"
     >
       <meta name="description" content={desc} />
     </Helmet>

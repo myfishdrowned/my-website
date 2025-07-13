@@ -18,8 +18,8 @@ export const projectData = [
       "vite",
     ],
     preview: "https://connect-social-network.netlify.app/",
-    front: "https://github.com/guskirb/social-media-clientTOP",
-    back: "https://github.com/guskirb/social-media-apiTOP",
+    front: "https://github.com/saifur-rahman/social-media-clientTOP",
+    back: "https://github.com/saifur-rahman/social-media-apiTOP",
   },
   {
     id: "chatroom-application",
@@ -30,9 +30,9 @@ export const projectData = [
     video:
       "https://res.cloudinary.com/dxvkpbvgr/video/upload/v1728971552/chatroom_gmqjie.mp4",
     stack: ["typescript", "css", "react", "node", "express", "mongodb", "vite"],
-    preview: "https://chat-app-guskirb.netlify.app/",
-    front: "https://github.com/guskirb/messaging-app-clientTOP",
-    back: "https://github.com/guskirb/messaging-app-apiTOP",
+    preview: "https://chat-app-saifur-rahman.netlify.app/",
+    front: "https://github.com/saifur-rahman/messaging-app-clientTOP",
+    back: "https://github.com/saifur-rahman/messaging-app-apiTOP",
   },
   {
     id: "blog-application",
@@ -43,9 +43,9 @@ export const projectData = [
     video:
       "https://res.cloudinary.com/dxvkpbvgr/video/upload/v1728971566/blog_w7veam.mp4",
     stack: ["typescript", "css", "react", "node", "express", "mongodb", "vite"],
-    preview: "https://main--guskirb-blog.netlify.app/",
-    front: "https://github.com/guskirb/blog-clientTOP",
-    back: "https://github.com/guskirb/blog-apiTOP",
+    preview: "https://main--saifur-rahman-blog.netlify.app/",
+    front: "https://github.com/saifur-rahman/blog-clientTOP",
+    back: "https://github.com/saifur-rahman/blog-apiTOP",
   },
   {
     id: "wheres-wally",
@@ -65,9 +65,9 @@ export const projectData = [
       "vite",
       "jest",
     ],
-    preview: "https://wheres-wally-guskirb.netlify.app/",
-    front: "https://github.com/guskirb/wheres-wally-clientTOP",
-    back: "https://github.com/guskirb/wheres-wally-apiTOP",
+    preview: "https://wheres-wally-saifur-rahman.netlify.app/",
+    front: "https://github.com/saifur-rahman/wheres-wally-clientTOP",
+    back: "https://github.com/saifur-rahman/wheres-wally-apiTOP",
   },
   {
     id: "music-inventory",
@@ -79,7 +79,7 @@ export const projectData = [
       "https://res.cloudinary.com/dxvkpbvgr/video/upload/v1728971557/inventory_kbtmbp.mp4",
     stack: ["html", "css", "javascript", "express", "mongodb"],
     preview: "https://quartz-holly-knot.glitch.me/",
-    back: "https://github.com/guskirb/inventory-applicationTOP",
+    back: "https://github.com/saifur-rahman/inventory-applicationTOP",
   },
   {
     id: "shopping-cart",
@@ -91,7 +91,7 @@ export const projectData = [
       "https://res.cloudinary.com/dxvkpbvgr/video/upload/v1728971561/shopping-cart_i3vblg.mp4",
     stack: ["javascript", "css", "react", "vite", "jest"],
     preview: "https://main--strong-profiterole-d88f4a.netlify.app/",
-    front: "https://github.com/guskirb/shopping-cartTOP",
+    front: "https://github.com/saifur-rahman/shopping-cartTOP",
   },
   {
     id: "cv-builder",
@@ -103,7 +103,7 @@ export const projectData = [
       "https://res.cloudinary.com/dxvkpbvgr/video/upload/v1728971556/CV-builder_jpfodc.mp4",
     stack: ["javascript", "css", "react", "vite"],
     preview: "https://main--starlit-kulfi-eb679c.netlify.app/",
-    front: "https://github.com/guskirb/CV-applicationTOP",
+    front: "https://github.com/saifur-rahman/CV-applicationTOP",
   },
   {
     id: "battleships",
@@ -114,8 +114,8 @@ export const projectData = [
     video:
       "https://res.cloudinary.com/dxvkpbvgr/video/upload/v1728971556/battleships_gwk5ox.mp4",
     stack: ["html", "javascript", "css", "jest"],
-    preview: "https://guskirb.github.io/battleshipTOP/",
-    front: "https://github.com/guskirb/battleshipTOP",
+    preview: "https://saifur-rahman.github.io/battleshipTOP/",
+    front: "https://github.com/saifur-rahman/battleshipTOP",
   },
   {
     id: "weather",
@@ -126,7 +126,7 @@ export const projectData = [
     video:
       "https://res.cloudinary.com/dxvkpbvgr/video/upload/v1728971551/weather-app_omoyhn.mp4",
     stack: ["html", "javascript", "css"],
-    preview: "https://guskirb.github.io/weather-appTOP/",
-    front: "https://github.com/guskirb/weather-appTOP",
+    preview: "https://saifur-rahman.github.io/weather-appTOP/",
+    front: "https://github.com/saifur-rahman/weather-appTOP",
   },
 ];

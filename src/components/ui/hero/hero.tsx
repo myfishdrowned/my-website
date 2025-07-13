@@ -10,6 +10,7 @@ import useTheme from "../../../hooks/useTheme";
 export default function Hero() {
   const [width, setWidth] = useState<number>(window.innerWidth);
   const { animation } = useTheme();
+  const [currentWord, setCurrentWord] = useState("IAM Engineer");
 
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
@@ -28,19 +29,21 @@ export default function Hero() {
         <MotionDiv>
           <div className="pointer-events-none dark:text-white z-10 flex flex-col skew-y-[19deg] duration-700 text-xs lg:text-xl">
             <h1>
-              Hi!<span className="wave">👋</span>I'm Gus,
+              Hi!<span className="wave">👋</span>I'm Saif-Ur Rahman,
             </h1>
             <h1>
-              a
+              {currentWord === "IAM Engineer" ? "an" : "a"}
               {animation ? (
-                <FlipWords words={["full-stack", "front-end", "back-end"]} />
+                <FlipWords
+                  words={["IAM Engineer", "Fullstack Developer"]}
+                  onWordChange={setCurrentWord}
+                />
               ) : (
                 <p className="inline-block whitespace-nowrap px-2z-10 relative text-left text-sky-500 font-medium px-2">
-                  full-stack
+                  IAM Engineer
                 </p>
               )}
             </h1>
-            <h1>web developer.</h1>
           </div>
         </MotionDiv>
         <Link

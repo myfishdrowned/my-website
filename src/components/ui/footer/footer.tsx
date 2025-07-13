@@ -11,13 +11,13 @@ export default function Footer() {
           <Tooltip id="githublogo" float>
             GitHub
           </Tooltip>
-          <a href="https://github.com/guskirb" data-tooltip-id="githublogo">
+          <a href="https://github.com/saifur-rahman" data-tooltip-id="githublogo">
             <li className="shadow-md gitHubLogo hover:scale-[1.1] transition-all" />
           </a>
           <Tooltip id="linkedin" float>
             LinkedIn
           </Tooltip>
-          <a href="https://linkedin.com/in/guskirb" data-tooltip-id="linkedin">
+          <a href="https://linkedin.com/in/saifur-rahman" data-tooltip-id="linkedin">
             <li className="shadow-md linkedInLogo hover:scale-[1.1] transition-all" />
           </a>
           <Tooltip id="emailcontact" float>
@@ -27,7 +27,7 @@ export default function Footer() {
             data-tooltip-id="emailcontact"
             className="shadow-md cursor-pointer hover:scale-[1.1] transition-all w-[40px] h-[40px] rounded-xl flex justify-center items-center dark:text-white text-[#262626] bg-neutral-100 dark:bg-neutral-900"
             onClick={() => {
-              window.location.href = "mailto:guskirb@gmail.com";
+              window.location.href = "mailto:saifur.rahman@example.com";
             }}
           >
             <Mail strokeWidth={2.5} size={28} />
@@ -35,13 +35,13 @@ export default function Footer() {
           <Tooltip id="leetcode" float>
             LeetCode
           </Tooltip>
-          <a href="https://leetcode.com/u/guskirb/" data-tooltip-id="leetcode">
+          <a href="https://leetcode.com/u/saifur-rahman/" data-tooltip-id="leetcode">
             <li className="shadow-md leetCodeLogo hover:scale-[1.1] transition-all" />
           </a>
         </ul>
       </div>
       <div className="flex flex-col items-center">
-        <p className="opacity-60 text-center">© 2024 Angus Kirby</p>
+        <p className="opacity-60 text-center">© 2024 Saif-Ur Rahman</p>
         <p className="text-sm opacity-60 text-center">
           Made with love using React and Tailwind
         </p>

@@ -28,7 +28,7 @@ export default function Projects() {
               Check out more on my{" "}
               <a
                 className="hover:underline"
-                href="https://github.com/guskirb?tab=repositories"
+                href="https://github.com/saifur-rahman?tab=repositories"
               >
                 <b>GitHub</b>
               </a>
