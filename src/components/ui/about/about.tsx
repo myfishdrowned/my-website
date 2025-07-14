@@ -13,24 +13,16 @@ export default function About() {
           </MotionDiv>
         </div>
         <MotionDiv delay={0.3}>
-          <p className="text-center font-regular text-xl lg:text-2xl w-3/4 lg:w-1/2">
-            I am a full-stack web developer with a passion for building{" "}
-            <b>visually stunning</b> and <b>highly functional</b> applications.
-          </p>
-        </MotionDiv>
-        <MotionDiv delay={0.4}>
-          <p className="text-center font-regular text-xl lg:text-2xl w-[90%] lg:w-1/2">
-            My interest in web development began at the age of 14 when I created
-            a blog that eventually grew to attract over 80,000 followers. Since
-            then, I've been dedicated to expanding my knowledge and remain eager
-            to learn.
-          </p>
-        </MotionDiv>
-        <MotionDiv delay={0.5}>
-          <p className="text-center font-regular text-xl lg:text-2xl w-3/4 lg:w-1/2">
-            When I'm not coding I'm probably at the gym or hanging out with my
-            cat.😸
-          </p>
+          <div className="text-center font-regular text-xl lg:text-2xl w-3/4 lg:w-1/2 flex flex-col gap-6">
+            <div>
+              <b>Access &amp; Authentication</b><br/>
+              I streamline logins while hardening security by delivering SSO and adaptive MFA with PingFederate and Okta, leveraging SAML, OAuth 2.0, OIDC, and FIDO2. Privileged accounts stay protected with CyberArk and Thycotic through automated discovery, vaulting, password rotation, and session recording.
+            </div>
+            <div>
+              <b>Governance &amp; Compliance</b><br/>
+              On the identity-governance side, I lead SailPoint IdentityIQ certification campaigns, role mining, and joiner-mover-leaver workflows, maintaining continuous alignment with SOX, HIPAA, and GDPR.
+            </div>
+          </div>
         </MotionDiv>
       </div>
       <MotionDiv delay={0.6}>
@@ -43,11 +35,11 @@ export default function About() {
             <p
               data-tooltip-id="email"
               onClick={() => {
-                navigator.clipboard.writeText("saifur.rahman@example.com");
+                navigator.clipboard.writeText("saif.rahman.va@gmail.com");
               }}
               className="text-2xl lg:text-3xl cursor-pointer"
             >
-              <b>saifur.rahman@example.com</b>
+              <b>saif.rahman.va@gmail.com</b>
             </p>
           </Highlight>
           <ul className="flex gap-8 mt-3">
@@ -55,7 +47,7 @@ export default function About() {
               GitHub
             </Tooltip>
             <MotionDiv delay={0.7}>
-              <a href="https://github.com/saifur-rahman" data-tooltip-id="githublogo">
+              <a href="https://github.com/myfishdrowned" data-tooltip-id="githublogo">
                 <li className="gitHubLogo hover:scale-[1.1] duration-700" />
               </a>
             </MotionDiv>
@@ -64,7 +56,7 @@ export default function About() {
             </Tooltip>
             <MotionDiv delay={0.8}>
               <a
-                href="https://linkedin.com/in/saifur-rahman"
+                href="https://www.linkedin.com/in/srm19"
                 data-tooltip-id="linkedin"
               >
                 <li className="linkedInLogo hover:scale-[1.1] duration-700" />
