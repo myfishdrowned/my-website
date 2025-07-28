@@ -11,13 +11,13 @@ export default function Footer() {
           <Tooltip id="githublogo" float>
             GitHub
           </Tooltip>
-          <a href="https://github.com/saifur-rahman" data-tooltip-id="githublogo">
+          <a href="https://github.com/myfishdrowned" data-tooltip-id="githublogo">
             <li className="shadow-md gitHubLogo hover:scale-[1.1] transition-all" />
           </a>
           <Tooltip id="linkedin" float>
             LinkedIn
           </Tooltip>
-          <a href="https://linkedin.com/in/saifur-rahman" data-tooltip-id="linkedin">
+          <a href="https://linkedin.com/in/srm19" data-tooltip-id="linkedin">
             <li className="shadow-md linkedInLogo hover:scale-[1.1] transition-all" />
           </a>
           <Tooltip id="emailcontact" float>
@@ -35,7 +35,7 @@ export default function Footer() {
           <Tooltip id="leetcode" float>
             LeetCode
           </Tooltip>
-          <a href="https://leetcode.com/u/saifur-rahman/" data-tooltip-id="leetcode">
+          <a href="https://leetcode.com/u/mahi_mahi_mahi/" data-tooltip-id="leetcode">
             <li className="shadow-md leetCodeLogo hover:scale-[1.1] transition-all" />
           </a>
         </ul>
