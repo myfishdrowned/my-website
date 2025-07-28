@@ -15,14 +15,14 @@ export interface IThemeContext {
 }
 
 export const ThemeContext = createContext<IThemeContext>({
-  darkMode: false,
+  darkMode: true,
   setDarkMode: () => {},
   animation: true,
   setAnimation: () => {},
 });
 
 export default function ThemeProvider({ children }: { children: ReactNode }) {
-  const [darkMode, setDarkMode] = useState(localStorage.theme ? true : false);
+  const [darkMode, setDarkMode] = useState(localStorage.theme ? true : true);
   const [animation, setAnimation] = useState(
     localStorage.animation ? false : true
   );
