@@ -3,7 +3,7 @@ import { Tooltip } from "react-tooltip";
 
 export default function Footer() {
   return (
-    <div className="mt-[100px] relative w-full dark:bg-neutral-100 bg-neutral-900 text-white dark:text-[#262626] flex flex-col gap-10 justify-center items-center p-20">
+    <div className="relative w-full dark:bg-neutral-100 bg-neutral-900 text-white dark:text-[#262626] flex flex-col gap-10 justify-center items-center p-20">
       <svg className="waveSvg" />
       <h1 className="text-center">Contact Me</h1>
       <div>
@@ -41,7 +41,7 @@ export default function Footer() {
         </ul>
       </div>
       <div className="flex flex-col items-center">
-        <p className="opacity-60 text-center">© 2024 Saif-Ur Rahman</p>
+        <p className="opacity-60 text-center">© 2025 Saif-Ur Rahman</p>
         <p className="text-sm opacity-60 text-center">
           Made with love using React and Tailwind
         </p>
