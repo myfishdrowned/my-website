@@ -12,6 +12,7 @@ export default function NavBar() {
         spy={true}
         smooth={true}
         duration={500}
+        offset={-100}
         className="duration-700 bg-neutral-100 dark:bg-neutral-900 p-1 lg:px-2 rounded-lg hover:scale-125 cursor-pointer opacity-70 hover:opacity-100"
         data-tooltip-id="home"
       >
@@ -25,6 +26,7 @@ export default function NavBar() {
         spy={true}
         smooth={true}
         duration={500}
+        offset={-100}
         className="duration-700 bg-neutral-100 dark:bg-neutral-900 p-1 lg:px-2 rounded-lg hover:scale-125 cursor-pointer opacity-70 hover:opacity-100"
         data-tooltip-id="about"
       >
@@ -38,6 +40,7 @@ export default function NavBar() {
         spy={true}
         smooth={true}
         duration={500}
+        offset={-100}
         className="duration-700 bg-neutral-100 dark:bg-neutral-900 p-1 lg:px-2 rounded-lg hover:scale-125 cursor-pointer opacity-70 hover:opacity-100"
         data-tooltip-id="skills"
       >
@@ -51,6 +54,7 @@ export default function NavBar() {
         spy={true}
         smooth={true}
         duration={500}
+        offset={-100}
         className="duration-700 bg-neutral-100 dark:bg-neutral-900 p-1 lg:px-2 rounded-lg hover:scale-125 cursor-pointer opacity-70 hover:opacity-100"
         data-tooltip-id="projects"
       >
@@ -64,6 +68,7 @@ export default function NavBar() {
         spy={true}
         smooth={true}
         duration={500}
+        offset={-100}
         className="duration-700 bg-neutral-100 dark:bg-neutral-900 p-1 lg:px-2 rounded-lg hover:scale-125 cursor-pointer opacity-70 hover:opacity-100"
         data-tooltip-id="contact"
       >

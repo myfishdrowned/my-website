@@ -27,7 +27,9 @@ export default function Home() {
         <Projects />
       </Element>
       <Element name="contact">
-      <Footer />
+        <div className="min-h-screen flex items-center justify-center">
+          <Footer />
+        </div>
       </Element>
       <ThemeButton />
       <NavBar />
