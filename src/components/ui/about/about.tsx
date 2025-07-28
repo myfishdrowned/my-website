@@ -16,7 +16,7 @@ export default function About() {
           <div className="text-center font-regular text-xl lg:text-2xl w-3/4 lg:w-1/2 flex flex-col gap-6">
             <div>
               <b>Access &amp; Authentication</b><br/>
-              I streamline logins while hardening security by delivering SSO and adaptive MFA with PingFederate and Okta, leveraging SAML, OAuth 2.0, OIDC, and FIDO2. Privileged accounts stay protected with CyberArk and Thycotic through automated discovery, vaulting, password rotation, and session recording.
+              I streamline logins while hardening security by delivering SSO and adaptive MFA with PingFederate and Okta, leveraging SAML, OAuth 2.0, OIDC, and FIDO2. I also protect priveledged accounts with CyberArk and Thycotic through automated discovery, vaulting, password rotation, and session recording.
             </div>
             <div>
               <b>Governance &amp; Compliance</b><br/>
