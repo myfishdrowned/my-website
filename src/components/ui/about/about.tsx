@@ -67,7 +67,7 @@ export default function About() {
             </Tooltip>
             <MotionDiv delay={0.9}>
               <a
-                href="https://leetcode.com/u/saifur-rahman/"
+                href="https://leetcode.com/u/mahi_mahi_mahi/"
                 data-tooltip-id="leetcode"
               >
                 <li className="leetCodeLogo hover:scale-[1.1] duration-700" />
