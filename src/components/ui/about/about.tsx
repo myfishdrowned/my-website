@@ -1,4 +1,5 @@
 import { Tooltip } from "react-tooltip";
+import { FileText } from "lucide-react";
 
 import { Highlight } from "../highlight/highlight-text";
 import MotionDiv from "../motion-div";
@@ -54,6 +55,22 @@ export default function About() {
               <b>saifrahman.iam@gmail.com</b>
             </p>
           </Highlight>
+          <div className="flex gap-8 mt-3">
+            <Tooltip id="resume" float>
+              Resume
+            </Tooltip>
+            <MotionDiv delay={0.65}>
+              <a
+                href="/s_rahman_IAM resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-tooltip-id="resume"
+                className="shadow-md cursor-pointer hover:scale-[1.1] transition-all w-[40px] h-[40px] rounded-xl flex justify-center items-center dark:text-white text-[#262626] bg-neutral-100 dark:bg-neutral-900"
+              >
+                <FileText strokeWidth={2.5} size={28} />
+              </a>
+            </MotionDiv>
+          </div>
           <ul className="flex gap-8 mt-3">
             <Tooltip id="githublogo" float>
               GitHub
