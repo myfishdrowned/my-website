@@ -15,12 +15,24 @@ export default function About() {
         <MotionDiv delay={0.3}>
           <div className="text-center font-regular text-xl lg:text-2xl w-3/4 lg:w-1/2 flex flex-col gap-6">
             <div>
+              I'm Saif-Ur Rahman, an Identity &amp; Access Management engineer who turns messy, manual processes into one-click experiences.
+            </div>
+            <div>
               <b>Access &amp; Authentication</b><br/>
-              I streamline logins while hardening security by delivering SSO and adaptive MFA with PingFederate and Okta, leveraging SAML, OAuth 2.0, OIDC, and FIDO2. I also protect priveledged accounts with CyberArk and Thycotic through automated discovery, vaulting, password rotation, and session recording.
+              - I deliver seamless sign-in and stronger security by designing SSO and adaptive MFA journeys with Okta, Azure AD, and PingFederate—leveraging SAML 2.0, OAuth 2.0, OIDC, and FIDO2.
+            </div>
+            <div>
+              - I've automated privileged-account discovery, vaulting, rotation, and session recording with CyberArk, Thycotic Secret Server, and AWS IAM to safeguard high-risk credentials.
             </div>
             <div>
               <b>Governance &amp; Compliance</b><br/>
-              On the identity-governance side, I lead SailPoint IdentityIQ certification campaigns, role mining, and joiner-mover-leaver workflows, maintaining continuous alignment with SOX, HIPAA, and GDPR.
+              - I've led Fortune-500 SailPoint IdentityIQ/IdentityNow rollouts for 400 k+ users—cutting onboarding from two days to 30 minutes and trimming manual access reviews by 30 %.
+            </div>
+            <div>
+              - I build end-to-end joiner-mover-leaver automation, role mining, and quarterly certification campaigns that keep SOX, HIPAA, and GDPR audits painless.
+            </div>
+            <div>
+              - I've published hands-off Azure AD PIM onboarding flows and Okta ↔ Azure SAML federation guides so teams can adopt zero-touch identity with confidence.
             </div>
           </div>
         </MotionDiv>
@@ -35,11 +47,11 @@ export default function About() {
             <p
               data-tooltip-id="email"
               onClick={() => {
-                navigator.clipboard.writeText("saif.rahman.va@gmail.com");
+                navigator.clipboard.writeText("saifrahman.iam@gmail.com");
               }}
               className="text-2xl lg:text-3xl cursor-pointer"
             >
-              <b>saif.rahman.va@gmail.com</b>
+              <b>saifrahman.iam@gmail.com</b>
             </p>
           </Highlight>
           <ul className="flex gap-8 mt-3">

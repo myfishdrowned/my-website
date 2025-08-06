@@ -27,7 +27,7 @@ export default function Footer() {
             data-tooltip-id="emailcontact"
             className="shadow-md cursor-pointer hover:scale-[1.1] transition-all w-[40px] h-[40px] rounded-xl flex justify-center items-center dark:text-white text-[#262626] bg-neutral-100 dark:bg-neutral-900"
             onClick={() => {
-              window.location.href = "mailto:saif.rahman.va@gmail.com";
+              window.location.href = "mailto:saifrahman.iam@gmail.com";
             }}
           >
             <Mail strokeWidth={2.5} size={28} />
